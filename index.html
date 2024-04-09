@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Furte</title>
+
+  <!--Tailwind CSS CDN LINK-->
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- Header Section -->
+  <nav class=" flex bg-white items-center justify-between p-3 sticky top-0 z-10">
+    <h1 class="text-2xl font-bold">Furte</h1>
+    <ul class="flex gap-2 items-center lg:gap-6">
+      <li>
+        <a href="#home">Home</a>
+      </li>
+      <li>
+        <a href="#about">About</a>
+      </li>
+      <li>
+        <a href="#services">Services</a>
+      </li>
+      <li>
+        <a href="#pricing">Pricing</a>
+      </li>
+      <li>
+        <button class="bg-black p-3 text-white rounded flex gap-1 items-center"><a href="#contact">Contact Us</a><svg
+            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+            class="w-4">
+            <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+          </svg>
+        </button>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home">
+    <img class="landing-image1 absolute object-cover p-3" src="assets/images/Landing-1.jpg" alt="Landing image" />
+    <div class="flex flex-col gap-10 relative p-20 flex-wrap">
+      <div class="font-bold text-5xl">
+        <h1>Discover the</h1>
+        <h1>best Furnitures</h1>
+      </div>
+      <div class="text-xl">
+        <p>It provides a place to sit, sleep, eat, work, and store belongings.</p>
+        <p>Without furniture, a room would be much less</p>
+        <p>functional and omfortable</p>
+        </p>
+      </div>
+      <div>
+        <button class="bg-black text-white p-3 rounded flex gap-1 items-center">Explore Now <svg
+            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+            class="w-4">
+            <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <div class="mt-20 md:mt-36">
+      <h3 class="text-xl text-center">TRUSTED BY OVER 1K+ COMPANIES</h3>
+      <div class="flex items-center justify-center gap-14 flex-wrap">
+        <img class="h-28" src="assets/images/company-1.png" alt="company-1">
+        <img class="h-12" src="assets/images/company-2.png" alt="company-2">
+        <img class="h-8" src="assets/images/company-3.png" alt="company-3">
+        <img class="h-8" src="assets/images/company-4.png" alt="company-4">
+        <img class="h-8" src="assets/images/company-5.png" alt="company-5">
+      </div>
+    </div>
+  </section>
+
+  <!-- Explore Now Section -->
+  <section class=" flex mt-11 p-3 flex-wrap md:flex-nowrap">
+    <img class="landing-image2 object-cover" src="assets/images/Landing-2.jpg" alt="Landing-2">
+    <div class="flex flex-col gap-6 justify-center p-14">
+      <div class="font-bold text-4xl">
+        <h1>Choose your material
+          for your furniture</h1>
+      </div>
+      <div class="text-xl">
+        <p>Furniture materials play a crticial role in determining the overall
+          look, feel, and durability of any furniture piece. There are a wide
+          variety of materials available, each with its unique properties and
+          based on their intended use, the desired style</p>
+      </div>
+      <div>
+        <button class="bg-black text-white p-3 rounded inline-block flex gap-1 items-center">Explore Now<svg
+            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+            class="w-4">
+            <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+          </svg></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="mt-8 bg-indigo-100 p-16" id="services">
+    <h1 class="font-bold text-4xl mb-20">What do we provide to you?</h1>
+    <div class="flex gap-10 flex-col mt-8 md:flex-row">
+
+      <div class="flex flex-col gap-4">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+          class="w-12 h-12 bg-indigo-300 rounded-3xl p-1 text-white">
+          <path stroke-linecap="round" stroke-linejoin="round"
+            d="M6 13.5V3.75m0 9.75a1.5 1.5 0 0 1 0 3m0-3a1.5 1.5 0 0 0 0 3m0 3.75V16.5m12-3V3.75m0 9.75a1.5 1.5 0 0 1 0 3m0-3a1.5 1.5 0 0 0 0 3m0 3.75V16.5m-6-9V3.75m0 3.75a1.5 1.5 0 0 1 0 3m0-3a1.5 1.5 0 0 0 0 3m0 9.75V10.5" />
+        </svg>
+        <h3 class="font-bold text-2xl">Free Services</h3>
+        <p>These are services that offer a basic
+          free version of their product with limited fatures.</p>
+      </div>
+
+      <div class="flex flex-col gap-4">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+          class="w-12 h-12 bg-indigo-300 rounded-3xl p-1 text-white">
+          <path stroke-linecap="round" stroke-linejoin="round"
+            d="M2.25 8.25h19.5M2.25 9h19.5m-16.5 5.25h6m-6 2.25h3m-3.75 3h15a2.25 2.25 0 0 0 2.25-2.25V6.75A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25v10.5A2.25 2.25 0 0 0 4.5 19.5Z" />
+        </svg>
+        <h3 class="font-bold text-2xl">Payment Method</h3>
+        <p>Transferring money from one bank
+          account to another. This can be done
+          through online banking</p>
+      </div>
+
+      <div class="flex flex-col gap-4">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+          class="w-12 h-12 bg-indigo-300 rounded-3xl p-1 text-white">
+          <path stroke-linecap="round" stroke-linejoin="round"
+            d="M9 12.75 11.25 15 15 9.75m-3-7.036A11.959 11.959 0 0 1 3.598 6 11.99 11.99 0 0 0 3 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285Z" />
+        </svg>
+
+        <h3 class="font-bold text-2xl">Warranty</h3>
+        <p>This type warranty is explicitly
+          stated by the manufacturer or seller,
+          either in writing or verbally</p>
+      </div>
+
+      <div class="flex flex-col gap-4">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+          class="w-12 h-12 bg-indigo-300 rounded-3xl p-1 text-white">
+          <path stroke-linecap="round" stroke-linejoin="round"
+            d="M10.125 2.25h-4.5c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125v-9M10.125 2.25h.375a9 9 0 0 1 9 9v.375M10.125 2.25A3.375 3.375 0 0 1 13.5 5.625v1.5c0 .621.504 1.125 1.125 1.125h1.5a3.375 3.375 0 0 1 3.375 3.375M9 15l2.25 2.25L15 12" />
+        </svg>
+
+        <h3 class="font-bold text-2xl">Returen Policy</h3>
+        <p>Most return policies include a
+          timeframe during which customers
+          can initiate a return</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Discover Products Section -->
+  <section class="mt-11 p-11" id="pricing">
+    <div class="flex justify-between gap-5 items-center">
+      <h3 class="font-bold text-5xl">Discover Product</h3>
+      <div>
+        <p>As it involves exploring and learning about</p>
+        <p>various options available in the market</p>
+      </div>
+    </div>
+
+    <div class="grid grid-cols-2 mt-11 md:grid-cols-4 gap-10">
+      <div class="flex flex-col gap-3">
+        <img class="object-cover h-60 w-48 hover:shadow-xl transform hover:-translate-y-2"" src="
+          ./assets/images/card-1.jpg" alt="card-1">
+        <p class="font-bold text-2xl">Wood Beside Table</p>
+        <div>
+          <p>And you can choose according to</p>
+          <p>your room prederence and comfort</p>
+        </div>
+        <p class="font-bold text-2xl text-red-400">$213.000</p>
+      </div>
+
+      <div class="flex flex-col gap-3">
+        <img class="object-cover h-60 w-48 inline hover:shadow-xl transform hover:-translate-y-2"
+          src="assets/images/card-2.jpg" alt="card-2">
+        <p class="font-bold text-2xl">Rattan Armchair</p>
+        <div>
+          <p>In a variety of sizes and materials</p>
+          <p> to suit your taste and style</p>
+        </div>
+        <p class="font-bold text-2xl text-red-400">$213.000</p>
+      </div>
+
+      <div class="flex flex-col gap-3">
+        <img class="object-cover h-60 w-48 inline hover:shadow-xl transform hover:-translate-y-2"
+          src="assets/images/card-3.jpg" alt="card-3">
+        <p class="font-bold text-2xl">Velvet Doff Gray</p>
+        <div>
+          <p>They are available in a variety of</p>
+          <p>comtemporary designs</p>
+        </div>
+        <p class="font-bold text-2xl text-red-400">$213.000</p>
+      </div>
+
+      <div class="flex flex-col gap-3">
+        <img class="object-cover h-60 w-48 inline hover:shadow-xl transform hover:-translate-y-2"
+          src="assets/images/card-4.jpg" alt="card-4">
+        <p class="font-bold text-2xl">Lamp Beside</p>
+        <div>
+          <p>In a variety of sizes and materials </p>
+          <p>to suit your taste and style</p>
+        </div>
+        <p class="font-bold text-2xl text-red-400">$213.000</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="mt-11 p-11" id="about">
+    <div class="flex flex-wrap justify-between gap-10">
+      <div class="flex flex-col gap-10">
+        <h1 class="font-bold text-5xl">About</h1>
+        <div>
+          <p>They key difference between ordinary and special. No matter</p>
+          <p>the season, our spaces are as nuanced as the
+            lifestyles they reflect, don’t</p>
+          <p>just dream it</p>
+        </div>
+        <div class="flex gap-6">
+          <div class="flex flex-col gap-4">
+            <h1 class="font-bold text-4xl">300+</h1>
+            <p>Success project</p>
+          </div>
+
+          <div class="flex flex-col gap-4">
+            <h1 class="font-bold text-4xl">500+</h1>
+            <p>Product launches</p>
+          </div>
+
+          <div class="flex flex-col gap-4">
+            <h1 class="font-bold text-4xl">180K</h1>
+            <p>Happy customer</p>
+          </div>
+        </div>
+
+        <div>
+          <button class="bg-black p-3 text-white rounded flex items-center gap-1">About Us<svg
+              xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+              stroke="currentColor" class="w-4">
+              <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+            </svg></button>
+        </div>
+      </div>
+      <img class="object-cover h-28 w-60 landing-image3" src="assets/images/Landing-3.jpg" alt="Landing-3">
+    </div>
+  </section>
+
+  <!-- Contact Us -->
+  <section class="mt-11 p-11 bg-indigo-100" id="contact">
+    <div class="flex flex-col gap-11">
+      <h2 class="font-medium text-5xl">Let’s</h2>
+      <div class="flex gap-11 justify-between items-center justify-center flex-wrap">
+        <h1 class="font-medium text-8xl">Get in touch</h1>
+        <div>
+          <button class="bg-black p-3 text-white rounded flex items-center gap-1">Contact Us<svg
+              xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+              stroke="currentColor" class="w-4">
+              <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+            </svg></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <section class="mt-11 p-11 flex gap-14 flex-wrap justify-between items-center">
+    <div class="flex gap-14 flex-wrap">
+      <div>
+        <h3 class="font-medium text-3xl mb-5">COMPANY</h3>
+        <div class="flex flex-col gap-3">
+          <p>About</p>
+          <p>Press</p>
+          <p>Careers</p>
+          <p>Contact</p>
+        </div>
+      </div>
+      <div>
+        <h3 class="font-medium text-3xl mb-5">DEVELOPERS</h3>
+        <div class="flex flex-col gap-3">
+          <p>Documentation</p>
+          <p>API Reference</p>
+          <p>Changelog</p>
+          <p>Status</p>
+        </div>
+      </div>
+      <div>
+        <h3 class="font-medium text-3xl mb-3">CONNECT</h3>
+        <div class="flex flex-col gap-3">
+          <p>Instagram</p>
+          <p>Likedin</p>
+          <p>Twitter</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="flex flex-col md:items-end">
+      <h3 class="font-medium text-3xl mb-3">Furte</h3>
+      <p>They key difference between ordinary and special. No
+      <p>matter the season, our spaces are as nuanced as the</p>
+      <p>lifestyles they reflect, don’t just dream it</p>
+    </div>
+  </section>
+</body>
+
+</html>
